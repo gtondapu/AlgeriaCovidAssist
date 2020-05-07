@@ -1,0 +1,2 @@
+rootProject.name='Helping hands'
+include ':app'
