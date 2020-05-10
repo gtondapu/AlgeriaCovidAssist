@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.esri.arcgisruntime:arcgis-android:100.4.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42a15c28ae63f93ca0d0e5ab98ed838c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42a15c28ae63f93ca0d0e5ab98ed838c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba3dcf1f8f2ed10b414eb4879358d9af/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba3dcf1f8f2ed10b414eb4879358d9af/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
