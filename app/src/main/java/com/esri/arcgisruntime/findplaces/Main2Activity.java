@@ -16,7 +16,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 public class Main2Activity extends AppCompatActivity {
-    String filename="newdata.txt";
+    String filename="newfile.txt";
     EditText loginUser ;
     EditText loginPass;
     @Override

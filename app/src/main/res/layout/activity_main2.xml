@@ -21,7 +21,22 @@
             android:layout_marginTop="60dp"
             android:text="Donate?"
             android:textSize="24dp" />
-
+        <EditText
+            android:id="@+id/editUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+             />
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
