@@ -1,49 +1,43 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-
-    <include android:id="@+id/toolbar"
-        layout="@layout/tool"/>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ededed"
-        android:orientation="vertical">
+        >
 
-        <TextView
-            android:id="@+id/textView2"
+        <include android:id="@+id/toolbar"
+            layout="@layout/tool"/>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:text="Donate?"
-            android:textSize="24dp" />
+            android:layout_height="match_parent"
+            android:background="#ededed"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:onClick="onUpdateClicked"
-            android:text="Update List"
-            android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="COVID-19 - Symptoms and Precautions:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textSize="23dp" />
 
-
-
-
-
-
-
-
-
-
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="@string/Paragraph"/>
 
 
+        </LinearLayout>
 
+    </RelativeLayout>
 
-    </LinearLayout>
-
-</RelativeLayout>
+</ScrollView>

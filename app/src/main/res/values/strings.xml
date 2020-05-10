@@ -1,4 +1,64 @@
 <resources>
-    <string name="app_name">Find Places</string>
+    <string name="app_name">Algeria COVID-19 Assist</string>
     <string name="action_settings">Settings</string>
+    <string name="Paragraph">
+        <b> COVID symptoms:</b>
+            \n 2 of the following:
+            \n \t &#8226; Fever
+            \n \t &#8226; Chills
+            \n \t &#8226; Repeated shaking with chills
+            \n \t &#8226; Muscle pain
+            \n \t &#8226; Headache
+            \n \t &#8226; Sore throat
+            \n \t &#8226; New loss of taste or smell
+        \n \n
+<b>If you develop any of these emergency warning signs for COVID-19, get emergency medical attention immediately:</b>
+      \n \t &#8226;Trouble breathing
+      \n \t &#8226; Persistent pain or pressure in the chest
+      \n \t &#8226; New confusion or inability to arouse
+      \n \t &#8226; Bluish lips or face
+\n \n
+<b>How to stay safe?</b>
+      \n \n \t &#8226; Plan ahead. Visualize breakfast, lunch, and dinner for at least 5 days.
+       \n \t &#8226; Good hand hygiene and social distancing
+       \n \t &#8226; Eating a nutritious diet that minimizes high blood sugar
+       \n \t &#8226; Prioritizing restful sleep
+       \n \t &#8226; Managing your stress(yoga/meditation)
+\n \n
+        <b>Stopping smoking</b>
+        \n \t &#8226; Participating in moderate exercise that you enjoy
+        \n \t &#8226; Getting sunshine and fresh air where possible
+        \n \t &#8226; Think about friends and neighbors, especially older adults or those with health conditions. Could you save them a trip to the grocery store?
+\n \n
+<b>Social distancing:</b>
+\n \n \t &#8226; Stay at least 6 feet (about 2 arms’ length) from other people
+ \n \t &#8226; Do not gather in groups
+ \n \t &#8226; Stay out of crowded places and avoid mass gatherings
+ \n \t &#8226; Minimize trips to the supermarket
+ \n \t &#8226; Try online shopping
+\n \n
+<b>What to eat?</b>
+\n  \n \t &#8226; Stock up on nutrition-packed foods that will stay fresh for a week or longer.
+ \n \t &#8226; You can try to stock up these foods:
+ \n \t &#8226; Corn tortillas, whole grain muffins, bagels, breads
+ \n \t &#8226; Instant oatmeal, quick cooking pasta, brown rice
+ \n \t &#8226; Apple and citrus fruits
+ \n \t &#8226; Celery, broccoli, onions, potatoes
+ \n \t &#8226; omato sauce, salsa
+ \n \t &#8226; Fresh, canned, shelf-stable milk
+ \n \t &#8226; Fresh eggs
+ \n \t &#8226; Hard cheese
+ \n \t &#8226; Black beans, chickpeas, dry beans
+ \n \t &#8226; Nuts and seeds
+ \n \t &#8226; Dried herbs and spices, vinegars, mustard, hot sauces, lemon juice, light dressings, honey, Greek yogurt
+\n \n
+<b>What to not eat?</b>
+\n  \n \t &#8226; Limit purchases of tempting foods like chips, sodas, cookies, and ice cream
+ \n \t &#8226; Avoid frozen food
+\n \n
+<b>For more info:</b>
+ 	\n \t &#8226;  <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">CDC</a>
+ 	\n \t &#8226;  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO</a>
+
+    </string>
 </resources>

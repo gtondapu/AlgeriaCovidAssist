@@ -4,8 +4,11 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
 
 public class Main3Activity extends AppCompatActivity {
 
@@ -16,6 +19,10 @@ public class Main3Activity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        TextView text =(TextView) findViewById(R.id.editText4);
+        text.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
