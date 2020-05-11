@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="appname">Algeria COVID</string>
+    <string name="settings">Setting</string>
+    <string name="COVID">
+        <b> COVID:</b>
+             \n \t &#8226; Blida Province               - 934
+             \n \t &#8226; Algiers Province             - 640
+             \n \t &#8226; Oran Province                - 353
+             \n \t &#8226; Aïn Defla Province           - 294
+             \n \t &#8226; Sétif Province               - 288
+             \n \t &#8226; Constantine Province         - 259
+             \n \t &#8226; Tipaza Province              - 224
+             \n \t &#8226; Tlemcen Province             - 199
+             \n \t &#8226; Bordj Bou Arréridj Province  - 195
+             \n \t &#8226; Bejaia Province              - 175
+    </string>
+
+</resources>

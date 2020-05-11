@@ -240,8 +240,9 @@ public class Main6Activity extends AppCompatActivity {
                 startActivity(new Intent(this,Main5Activity.class));
                 return true;
             case R.id.subitem3:
-                Toast.makeText(this, "subitem3 selected", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this,Main7Activity.class));
                 return true;
+
             case R.id.action_menu3:
                 startActivity(new Intent(this,Main3Activity.class));
                 return true;

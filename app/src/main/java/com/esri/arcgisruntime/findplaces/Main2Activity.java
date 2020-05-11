@@ -118,6 +118,15 @@ String x="N";
             case R.id.action_menu2:
                 startActivity(new Intent(this,MainActivity.class));
                 return true;
+            case R.id.subitem1:
+                startActivity(new Intent(this,Main6Activity.class));
+                return true;
+            case R.id.subitem2:
+                startActivity(new Intent(this,Main5Activity.class));
+                return true;
+            case R.id.subitem3:
+                startActivity(new Intent(this,Main7Activity.class));
+                return true;
             case R.id.action_menu3:
                 startActivity(new Intent(this,Main3Activity.class));
                 return true;
