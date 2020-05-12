@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.toolbar_test4.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_dehaze"
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item android:id="@+id/action_menu1"
+
+                android:title="Helping Hands!" />
+
+            <item android:id="@+id/action_menu2"
+
+                android:title="Home" >
+                <menu>
+                    <item android:id="@+id/subitem1"
+                        android:title="Hospitals"/>
+                    <item android:id="@+id/subitem2"
+                        android:title="Grocery Stores"/>
+                    <item android:id="@+id/subitem3"
+                        android:title="covid"/>
+
+                </menu>
+
+            </item>
+            <item android:id="@+id/action_menu3"
+                
+                android:title="Info" />
+
+        </menu>
+    </item>
+</menu>
